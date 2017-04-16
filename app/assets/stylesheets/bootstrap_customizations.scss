@@ -72,9 +72,9 @@ $link-hover-decoration: underline;
 //
 // Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-family-sans-serif: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,  Arial, sans-serif;
 $font-family-serif:      Georgia, "Times New Roman", Times, serif;
-$font-family-base:       $font-family-sans-serif;
+$font-family-base: $font-family-sans-serif;
 
 // Pixel value used to responsively scale all typography. Applied to the `<html>` element.
 $font-size-root: 16px;
